@@ -1,0 +1,17 @@
+# Environment variables & Secrets
+.env
+.env.local
+.env.production
+.env.*
+!.env.example
+
+# Dependencies
+node_modules/
+
+# TypeScript Build Output
+dist/
+*.tsbuildinfo
+
+# Logs
+*.log
+logs/
